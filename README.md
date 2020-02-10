@@ -1,2 +1,2 @@
 # caller_callee
- Call a function of another process with CreateRemoteThread.
+ Call a function of another process with CreateRemoteThread. The caller process will call the functions of the callee process remotely using VirtualAllocEx, WriteProcessMemory and CreateRemoteThread functions.
